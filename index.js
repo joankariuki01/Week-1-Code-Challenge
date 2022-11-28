@@ -60,4 +60,54 @@ function speedChecker(){
 
 
 //challenge 3 - net salary calculator
+function netSalaryCalculator(){
+    let basicSalary = document.getElementById("basic-salary").value;
+    let tax;
+    let nhif;
+    let nssf
+    let netSalary;
+    if(basicSalary < 6000)  {
+        nhif = 150
+        tax = (basicSalary * 10) / 100;
+        nssf = 400;
+        netSalary = basicSalary - tax - nhif - nssf;
+    }
+    else if (basicSalary >= 6000 && basicSalary < 8000) {
+        nhif = 300
+        tax = (basicSalary * 10) / 100;
+        nssf = 400;
+        netSalary = basicSalary - tax - nhif - nssf;
+    }
+    else if (basicSalary >= 8000 && basicsalary < 12000) {
+        nhif = 400
+        tax = (basicSalary * 10) / 100;
+        nssf = 400;
+        netSalary = basicSalary - tax - nhif - nssf;
+    }
+    else if (basicSalary >= 12000 && basicsalary < 15000) {
+        nhif = 500
+        tax = (basicSalary * 10) / 100;
+        nssf = 400;
+        netSalary = basicSalary - tax - nhif - nssf;
+    }
+    else if (basicSalary >= 15000 && basicsalary < 20000) {
+        nhif = 600
+        tax = (basicSalary * 10) / 100;
+        nssf = 400;
+        netSalary = basicSalary - tax - nhif - nssf
+    }
+    else if (basicSalary >= 20000 && basicsalary <= 24000) {
+        nhif = 750
+        tax = (basicSalary * 10) / 100;
+        nssf = 400;
+        netSalary = basicSalary - tax - nhif - nssf
+    }
+    else {
+        nhif = 850
+        tax = (basicSalary * 25) / 100;
+        nssf = 400
+        netSalary = basicSalary - tax - nhif - nssf
+    }
+document.getElementById("net-salary").innerHTML = netSalary;
+}
 
