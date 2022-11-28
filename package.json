@@ -1,0 +1,25 @@
+{
+  "name": "week-1-code-challenge",
+  "version": "1.0.0",
+  "description": "Week One Code Challenge",
+  "main": "index.js",
+  "scripts": {
+    "test": "npm start"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/joankariuki01/Week-1-Code-Challenge.git"
+  },
+  "keywords": [
+    "for",
+    "if",
+    "else",
+    "switch"
+  ],
+  "author": "Joan Kariuki",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/joankariuki01/Week-1-Code-Challenge/issues"
+  },
+  "homepage": "https://github.com/joankariuki01/Week-1-Code-Challenge#readme"
+}

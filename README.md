@@ -1,5 +1,71 @@
-# Week-1-Code-Challenge
-Moringa Phase 1 end of week 1 code challenge
+# Week1: Code Challenge
+
+
+# Description
+This is a page featuring three programs from the week one code challenge
+
+# Getting Started
+You will need the following software in your computer to run the programs
+
+Chrome browser (or a browser of your choice)
+
+
+## Installation
+
+Here's how to install this repo into your computer
+
+Clone the repo using this command
+
+        git clone git@github.com:joankariuki01/Week-1-Code-Challenge.git
+
+Wait for Git to create a local copy on your computer
+
+
+
+## Running the application
+
+cd into the folder
+
+
+        cd Week-1-Code-Challenge
+
+open the index.html  on your default browser by running the command
+
+        open index.html
+
+The page contains three input boxes, each with a submit button
+
+# Program 1: Student grade generator
+
+Use this program to convert your marks into a grade "A", "B", "C", "D" or "E"
+
+Enter marks into the input field and press submit
+
+Check below the submit button for your grade
+
+
+# Program 2: Speed checker
+This program will let you know if your speed is above the limit
+
+Enter speed into the inout field and press submit
+
+Check below the submit button to see how you are faring
+
+
+# Net Salary Calculator 
+
+This program will indicate your tax, NHIF/NSSF deductions, gross salary and net salary according to your monthly salary
+
+Enter your salary into the input field
+
+Check below the submit button for your deductions and net salary
+
+
+
+
+# Authors
+This project was contributed to by: <br>
+<a href="https://github.com/joankariuki01">Joan Kariuki</a>
 
 
 
@@ -8,45 +74,9 @@ Moringa Phase 1 end of week 1 code challenge
 
 
 
+# Licence
 
+MIT License
 
+Copyright (c) 2022 joankariuki01
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-//MIT License
-
-//Copyright (c) 2022 joankariuki01
-
-//Permission is hereby granted, free of charge, to any person obtaining a copy
-of this software and associated documentation files (the "Software"), to deal
-in the Software without restriction, including without limitation the rights
-to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
-copies of the Software, and to permit persons to whom the Software is
-furnished to do so, subject to the following conditions:
-
-//The above copyright notice and this permission notice shall be included in all
-copies or substantial portions of the Software.
-
-//THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
-IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
-FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
-AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
-LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
-OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
-SOFTWARE.
