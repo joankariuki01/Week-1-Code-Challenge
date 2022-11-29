@@ -1,0 +1,19 @@
+h1 {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+h2 {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+
+}
+
+#marks, #speed, #basic-salary, #benefits{
+    border-style: solid;
+    border-color: #4adede;
+    border-radius: 25px;
+}
+button {
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    border-color: #045d52;
+    border-radius: 25px;
+}

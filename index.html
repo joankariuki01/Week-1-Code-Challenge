@@ -4,6 +4,7 @@
         <meta charset="utf-8">
         <title></title>
         <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="styles.css">
     </head>
     <body>
 
@@ -36,9 +37,12 @@
         <br>
 
         <h2>Net Salary Calculator</h2> 
-<!-- input field prompting user for basic salary, linking value to JS fucntion using id = "basic-salary" -->         
-        <input type="number" id="basic-salary" placeholder="Enter monthly salary">
-<!-- submit button that calls function netSalaryClaculator when clicked -->         
+<!-- input field prompting user for basic salary, linked to JS using id = "basic-salary" -->         
+        <input type="number" id="basic-salary" placeholder="Enter basic monthly salary">
+<!-- input field prompting user for benefits linked to JS using id = "benefits" -->
+        <input type="number" id="benefits" placeholder="Enter benefits">
+<!-- submit button that calls function netSalaryCalculator when clicked -->         
+        
         <button onclick="netSalaryCalculator()">Submit</button>
 <!-- paragraph element to display net-salary from JS function  --> 
         <p id="net-salary"></p>

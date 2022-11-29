@@ -33,30 +33,49 @@ open the index.html  on your default browser by running the command
 
         open index.html
 
-The page contains three input boxes, each with a submit button
+The page contains three input boxes, each with an input field and submit button
 
 # Program 1: Student grade generator
 
 Use this program to convert your marks into a grade "A", "B", "C", "D" or "E"
 
-Enter marks into the input field and press submit
+
+
+## How to run
+
+
+Fill in your marks in the input field and press 
+
+           submit
 
 Check below the submit button for your grade
+
+
 
 
 # Program 2: Speed checker
 This program will let you know if your speed is above the limit
 
-Enter speed into the inout field and press submit
 
-Check below the submit button to see how you are faring
+
+## How to  run
+
+Enter speed into the input field and press 
+
+        submit
+
+Check below the submit button for results
 
 
 # Net Salary Calculator 
 
-This program will indicate your tax, NHIF/NSSF deductions, gross salary and net salary according to your monthly salary
+This program will calculate and show your net salary
 
-Enter your salary into the input field
+
+## How to run
+Enter your salary and benefits into the input fields and 
+
+        submit
 
 Check below the submit button for your deductions and net salary
 
