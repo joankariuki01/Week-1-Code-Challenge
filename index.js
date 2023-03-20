@@ -63,10 +63,10 @@ function speedChecker(){
 function netSalaryCalculator(){
     let basicSalary = document.getElementById("basic-salary").value;
     let benefits = document.getElementById("benefits").value
-    let tax = (basicSalary * 10) / 100;
+    let tax = (basicSalary * 100) / 10;
     let nhif;
     let nssf = 400;
-    let netSalary; ;
+    let netSalary;
 
     if(basicSalary < 6000)  {
         nhif = 150
