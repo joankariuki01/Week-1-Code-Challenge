@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Student Grade Generator</title>
+    <link rel="stylesheet" href="/styles.css">
+</head>
+
+<body>
+    <div class="box">
+        <h1>Student Grade Generator</h1>
+        <p>Marks</p>
+<!-- input field that links value to JS using an id = "marks" -->
+        <input type="number"  placeholder="Enter marks"  id="marks" min="0" max="100" >
+<!-- submit button that calls JS function marksToGrade() when clicked --> 
+        <button onclick="marksToGrades()">Generate</button>
+<!-- paragraph element with id = "grade" to display result from JS function-->          
+        <p id="grade"></p>
+    </div>
+    
+     <script src="index.js"></script> 
+</body>
+</html>        
+        
+        
+        
+ 

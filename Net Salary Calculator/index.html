@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Net Salary Calculator</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="/styles.css">
+    </head>
+    <body>
+        <div class="box">
+                <h1>Net Salary Calculator</h1> 
+                <p>Basic Salary</p>
+<!-- input field prompting user for basic salary, linked to JS using id = "basic-salary" -->         
+                <input type="number" id="basic-salary" placeholder="Enter salary" min="0" max="100">
+<!-- input field prompting user for benefits linked to JS using id = "benefits" -->
+                <p>Benefits</p>
+                <input type="number" id="benefits" placeholder="Enter benefits">
+<!-- submit button that calls function netSalaryCalculator when clicked -->         
+        
+                <button onclick="netSalaryCalculator()">Calculate</button>
+<!-- paragraph element to display net-salary from JS function  --> 
+                <p id="net-salary"></p>
+   
+        </div>
+
+
+        <script type="text/javascript" src="index.js"></script>
+    </body>
+</html>

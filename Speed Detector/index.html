@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Speed Detector</title>
+    <link rel="stylesheet" href="/styles.css">
+</head>
+<body>
+    <div class="box">
+        <h1>Speed Detector</h1>
+        <p>Speed</p>
+        <!-- input field that links value to JS using an id = "speed" -->        
+        <input type="number" id = "speed" placeholder="Enter speed" min="0">
+        <!-- button that calls JS function speedChecker() when clicked  -->       
+        <button onclick="speedChecker()">Detect</button>
+        <!-- paragraph element to display result from JS function -->             
+        <p id="message"></p>
+    </div>
+    <script src="index.js"></script>
+</body>
+</html>
