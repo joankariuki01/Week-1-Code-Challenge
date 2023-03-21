@@ -1,8 +1,4 @@
 
-@font-face {
-font-family: orbitron-black;
-src: url(./fonts/orbitron-black.ttf);
-}
 @import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@500&display=swap');
 
 body {
@@ -12,7 +8,6 @@ align-items: center;
 min-height: 100vh;
 background: url(/images/background4.jpg);
 background-repeat: no-repeat;
-font-family: sans-serif;
 }
 .box{
 width: 320px;
