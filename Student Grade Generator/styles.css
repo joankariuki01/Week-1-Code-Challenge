@@ -1,0 +1,73 @@
+
+@font-face {
+font-family: orbitron-black;
+src: url(./fonts/orbitron-black.ttf);
+}
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@500&display=swap');
+
+body {
+display: flex;
+justify-content: center;
+align-items: center;
+min-height: 100vh;
+background: url(images/background.jpg);
+font-family: sans-serif;
+}
+.box{
+width: 320px;
+height: 420px;
+border-radius: 1px;
+background: #13294b;
+color: #fff;
+top: 50%;
+left: 50%;
+position: absolute;
+transform: translate(-50%, -50%);
+opacity:  0.9;
+transition: opacity 3s, border 2s;
+padding: 70px   30px;
+}
+.box:hover{
+opacity: 1;
+border: 9px solid #36454f;
+}
+h1{
+margin: 0;
+padding: 0 0 20px;
+text-align: center;
+font-size: 22px;
+font-family: 'Roboto Mono', monospace;  
+}
+.box p{
+margin: 20px auto;
+padding: 0;
+font-family: 'Roboto Mono', monospace;
+}
+.box input{
+width: 100%;
+margin-bottom: 40px;
+border: none;
+border-bottom:  1px solid #fff;
+background: transparent;
+outline: none;
+height: 40px;
+color: #fff;
+font-size: 16px;
+}
+.box button
+{
+border: none;
+outline: none;
+background: #ff4500;
+color: #fff;
+font-size: 18px;
+border-radius: 20px;
+width: 320px;
+font-family: 'Roboto Mono', monospace;
+}
+.box button:hover
+{
+cursor: pointer;
+background: #ff5349;
+color: #000;
+}

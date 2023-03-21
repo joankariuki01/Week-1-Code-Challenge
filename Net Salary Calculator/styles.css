@@ -6,14 +6,17 @@ src: url(./fonts/orbitron-black.ttf);
 @import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@500&display=swap');
 
 body {
-margin: 0;
-padding: 0;
+display: flex;
+justify-content: center;
+align-items: center;
+min-height: 100vh;
 background: url(images/background.jpg);
 font-family: sans-serif;
 }
 .box{
 width: 320px;
 height: 420px;
+border-radius: 1px;
 background: #13294b;
 color: #fff;
 top: 50%;
@@ -59,6 +62,7 @@ background: #ff4500;
 color: #fff;
 font-size: 18px;
 border-radius: 20px;
+width: 320px;
 font-family: 'Roboto Mono', monospace;
 }
 .box button:hover
