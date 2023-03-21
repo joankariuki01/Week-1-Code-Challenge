@@ -10,7 +10,8 @@ display: flex;
 justify-content: center;
 align-items: center;
 min-height: 100vh;
-background: url(images/background.jpg);
+background: url(/images/background4.jpg);
+background-repeat: no-repeat;
 font-family: sans-serif;
 }
 .box{
@@ -68,6 +69,5 @@ font-family: 'Roboto Mono', monospace;
 .box button:hover
 {
 cursor: pointer;
-background: #ff5349;
 color: #000;
 }
