@@ -3,8 +3,8 @@
 //challenge 3 - net salary calculator
 function netSalaryCalculator(){
     let basicSalary = document.getElementById("basic-salary").value;
-    let benefits = document.getElementById("benefits").value
-    let tax = 10%(basicSalary);
+    let benefits = document.getElementById("benefits").value;
+    let tax = 0.1 * basicSalary;
     let nhif;
     let nssf = 400;
     let netSalary;
@@ -30,7 +30,13 @@ function netSalaryCalculator(){
     else {
         nhif = 850
 
-    }netSalary = (basicSalary + benefits) - (tax + nhif + nssf)
+    }
+    netSalary = (parseInt(benefits)  + parseInt(basicSalary)) - parseInt(tax + nssf + nhif) ;
+    document.getElementById("tax").innerHTML =  `Your tax deduction is: ${tax}`;
+    document.getElementById("nhif").innerHTML =  `Your nhif contribution is: ${nhif}`;
+    document.getElementById("nssf").innerHTML =  `Your nssf contribution is: ${nssf}`;
     document.getElementById("net-salary").innerHTML =  `Your net salary is: ${netSalary}`;
+ 
+
 }
 

@@ -4,7 +4,7 @@
         <meta charset="utf-8">
         <title>Net Salary Calculator</title>
         <meta name="viewport" content="width=device-width, initial-scale=1">
-        <link rel="stylesheet" href="styles.css">
+        <link rel="stylesheet" href="./css/salary-calculator.css">
     </head>
     <body>
         <div class="box">
@@ -18,12 +18,16 @@
 <!-- submit button that calls function netSalaryCalculator when clicked -->         
         
                 <button onclick="netSalaryCalculator()">Calculate</button>
-<!-- paragraph element to display net-salary from JS function  --> 
+<!-- paragraph elements to display results from JS function  --> 
                 <p id="net-salary"></p>
-   
+                <p id="nhif"></p>
+                <p id="nssf"></p>
+                <p id="tax"></p>
+<!--Button linking to html file of the next program-->
+                <button>  <a href="grade-generator.html">Next</a> </button>
         </div>
 
 
-        <script type="text/javascript" src="index.js"></script>
+        <script src="./js/salary-calculator.js"></script>
     </body>
 </html>
